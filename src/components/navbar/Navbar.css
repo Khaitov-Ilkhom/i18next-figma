@@ -1,0 +1,36 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 20px 0;
+    background: white;
+}
+.logo-images {
+    max-width: 250px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo-images img {
+    width: 100%;
+}
+.nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.nav ul li a {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: rgba(138, 43, 226, 0.74);
+    color: white;
+}
+.nav ul li .active {
+    background: rgba(75, 0, 130, 0.78);
+    color: white;
+}
